@@ -8,7 +8,6 @@ def solution(people, limit):
     answer = len(people)
     
     people.sort(reverse=True)
-    
     start, end = 0, len(people)-1
     
     while start < end :

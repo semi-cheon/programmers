@@ -6,7 +6,6 @@
 
 def solution(numbers, target):
     super = [0]
-    
     for i in numbers :
         temp = []
         for j in super:

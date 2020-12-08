@@ -8,7 +8,6 @@ def solution(brown, yellow):
     # total_area = row * col
     # yellow_area = (row-2)*(col-2)
     # brown_area = total_area - yellow_area 
-    
     area = brown + yellow  
     row_col = (brown + 4)//2 
     
